@@ -1,8 +1,8 @@
 from . import config
 
 
-SUMMARY = 'Pomomo helps keep you and your friends on track while you study together!\n' \
-          'Set periods of focus to get work done and chat during the breaks.\n\n' \
+SUMMARY = 'Pomostudy membantu kamu dan teman mu untuk tetap fokus belajar !\n' \
+          'Tetapkan periode fokus untuk menyelesaikan pekerjaan dan mengobrol selama istirahat..\n\n' \
           'Required parameters are enclosed in <> and optional parameters are enclosed in [].\n' \
           f'For example, you can do \"{config.CMD_PREFIX}start\" to start a pomodoro session with the default values ' \
           f'or \"{config.CMD_PREFIX}start 30 10\" to customize the pomodoro and short break durations!\n'
@@ -42,9 +42,4 @@ COMMANDS = {'Control commands': {'start': ['start [pomodoro] [short_break] [long
                                                                        'can add the \"all\" parameter to auto_shush '
                                                                        'everyone in the pomodoro voice channel.']}}
 
-LINKS = 'Invite Pomomo to your server [here]' \
-        '(https://discord.com/api/oauth2/authorize?client_id=821952460909445130&permissions=15738880&scope=bot)!\n' \
-        'If you have any suggestions or want to report a bug, visit the support server [here]' \
-        '(https://discord.gg/Aghy78wcFr) or check out the [top.gg](https://top.gg/bot/821952460909445130) ' \
-        'page for more info.\n\n' \
-        'You can also support Pomomo by buying me a coffee [here](https://www.buymeacoffee.com/benjamonn) :)'
+LINKS = 'You can also support me by Saweria [here](https://saweria.co/Echal) :)'
